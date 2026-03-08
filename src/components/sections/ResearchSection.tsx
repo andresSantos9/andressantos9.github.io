@@ -42,6 +42,7 @@ const researchProjects = [
     title: "PACE: Pervasive and Affordable Technologies for Civic Engagement",
     role: "Researcher",
     funder: "Spanish Ministry of Economic Affairs and Digital Transformation",
+    link: "https://dei.inf.uc3m.es/portal/?page=projects&id=100&name=PACE",
   },
 ];
 
