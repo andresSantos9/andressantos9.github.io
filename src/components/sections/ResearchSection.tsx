@@ -1,4 +1,4 @@
-import { ExternalLink, Play, FileText } from "lucide-react";
+import { ExternalLink, Play, FileText, Plus } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -21,6 +21,7 @@ const researchProjects = [
     title: "Bazkaria: Eating Together Through Immersive Telepresence",
     role: "Researcher",
     funder: "European Union through SPIRIT project",
+    link: "https://www.vicomtech.org/en/rdi-tangible/success-stories/story/bazkaria-eating-together-through-immersive-telepresence",
   },
   {
     period: "May 2024 – Jun 2025",
@@ -141,9 +142,22 @@ export function ResearchSection() {
             <div className="space-y-4">
               {researchProjects.map((project, index) => (
                 <div key={index} className="bg-card rounded-lg border border-border p-5 shadow-sm">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-sm font-medium text-accent">{project.period}</span>
-                    <Badge variant="outline" className="text-xs">{project.role}</Badge>
+                  <div className="flex items-start justify-between gap-4 mb-2">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm font-medium text-accent">{project.period}</span>
+                      <Badge variant="outline" className="text-xs">{project.role}</Badge>
+                    </div>
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-accent hover:bg-accent/90 transition-colors"
+                        title="View project details"
+                      >
+                        <Plus className="h-4 w-4 text-accent-foreground" />
+                      </a>
+                    )}
                   </div>
                   <h4 className="font-serif font-semibold text-primary mb-1">{project.title}</h4>
                   <p className="text-sm text-muted-foreground">Funded by: {project.funder}</p>
