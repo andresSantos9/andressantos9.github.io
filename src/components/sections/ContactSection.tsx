@@ -4,12 +4,16 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
+import orcidLogo from "@/assets/orcid-logo.png";
+import githubLogo from "@/assets/github-logo.png";
+import googleScholarLogo from "@/assets/google-scholar-logo.png";
+import linkedinLogo from "@/assets/linkedin-logo.png";
 
 const academicLinks = [
-  { name: "Personal Website", url: "https://andressantos9.github.io/", icon: "🌐" },
-  { name: "GitHub", url: "https://github.com/andresSantos9", icon: "💻" },
-  { name: "Google Scholar", url: "https://scholar.google.es/citations?user=wLFCis0AAAAJ&hl=es&oi=ao", icon: "📚" },
-  { name: "LinkedIn", url: "https://www.linkedin.com/in/andres-santos-torres/", icon: "🔗" },
+  { name: "ORCID", url: "https://orcid.org/0000-0003-2679-2440", logo: orcidLogo },
+  { name: "GitHub", url: "https://github.com/andresSantos9", logo: githubLogo },
+  { name: "Google Scholar", url: "https://scholar.google.es/citations?user=wLFCis0AAAAJ&hl=es&oi=ao", logo: googleScholarLogo },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/andres-santos-torres/", logo: linkedinLogo },
 ];
 
 export function ContactSection() {
@@ -93,7 +97,7 @@ export function ContactSection() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 p-3 rounded-lg border border-border bg-card hover:bg-muted/50 transition-colors group"
                   >
-                    <span className="text-lg">{link.icon}</span>
+                    <img src={link.logo} alt={link.name} className="w-5 h-5 object-contain" />
                     <span className="font-medium text-sm text-foreground">{link.name}</span>
                     <ExternalLink className="h-3 w-3 text-muted-foreground ml-auto opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
