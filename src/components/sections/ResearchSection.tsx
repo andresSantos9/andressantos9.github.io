@@ -264,10 +264,19 @@ export function ResearchSection() {
                     <div className="flex items-start justify-between gap-2 mb-2">
                       <p className="text-sm text-accent font-medium">{pub.year}</p>
                       {pub.award && (
-                        <Badge className="bg-amber-500 text-white flex items-center gap-1 text-xs">
-                          <Trophy className="h-3 w-3" />
-                          {pub.award}
-                        </Badge>
+                        pub.awardUrl ? (
+                          <a href={pub.awardUrl} target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                            <Badge className="bg-amber-500 text-white flex items-center gap-1 text-xs cursor-pointer">
+                              <Trophy className="h-3 w-3" />
+                              {pub.award}
+                            </Badge>
+                          </a>
+                        ) : (
+                          <Badge className="bg-amber-500 text-white flex items-center gap-1 text-xs">
+                            <Trophy className="h-3 w-3" />
+                            {pub.award}
+                          </Badge>
+                        )
                       )}
                     </div>
                     <h4 className="font-serif font-semibold text-primary mb-2 leading-snug">
