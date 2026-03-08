@@ -51,6 +51,7 @@ const publications = [
     thumbnail: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=225&fit=crop",
     hasVideo: true,
     videoUrl: "https://doi.org/10.1109/HFIA68651.2025.00010",
+    embedVideo: "https://www.youtube.com/embed/KmZAENQEzd8?si=WyK3xE8c-1RZY6Qc",
     paperUrl: "https://doi.org/10.1109/HFIA68651.2025.00010",
   },
   {
