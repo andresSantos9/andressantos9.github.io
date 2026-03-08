@@ -1,11 +1,22 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Award, GraduationCap } from "lucide-react";
 import profilePhoto from "@/assets/asantos.jpg";
+import orcidLogo from "@/assets/orcid-logo.png";
+import githubLogo from "@/assets/github-logo.png";
+import linkedinLogo from "@/assets/linkedin-logo.png";
+import googleScholarLogo from "@/assets/google-scholar-logo.png";
 
 const awards = [
   
   { year: "2022", title: "Ph.D. Outstanding Thesis Award", org: "University Carlos III of Madrid" },
   { year: "2018", title: "Special Mention – Accessit Jesús Lorés", org: 'Outstanding research paper "Exploring interaction mechanisms for map interfaces in VR environments"' },
+];
+
+const profileLinks = [
+  { name: "ORCID", logo: orcidLogo, url: "https://orcid.org/0000-0003-2679-2440" },
+  { name: "GitHub", logo: githubLogo, url: "https://github.com/asantos-vicomtech" },
+  { name: "LinkedIn", logo: linkedinLogo, url: "https://www.linkedin.com/in/asantost/" },
+  { name: "Google Scholar", logo: googleScholarLogo, url: "https://scholar.google.com/citations?user=gQTQMdEAAAAJ" },
 ];
 
 const scholarships = [
@@ -43,6 +54,21 @@ export function HeroSection() {
               <p className="text-xl text-accent font-medium mb-4">
                 Researcher & Adjunct Lecturer
               </p>
+              {/* Profile Links */}
+              <div className="flex justify-center md:justify-start gap-3 mb-6">
+                {profileLinks.map((link) => (
+                  <a
+                    key={link.name}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-8 h-8 rounded-lg hover:bg-secondary transition-colors"
+                    title={link.name}
+                  >
+                    <img src={link.logo} alt={link.name} className="w-5 h-5 object-contain" />
+                  </a>
+                ))}
+              </div>
               <p className="text-lg text-muted-foreground mb-6">
                 Vicomtech, Digital Media & Communications • Deusto University
                 <br />
