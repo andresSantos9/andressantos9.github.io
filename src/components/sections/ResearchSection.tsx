@@ -101,6 +101,7 @@ const publications = [
     hasVideo: false,
     paperUrl: "https://doi.org/10.1007/s11042-020-08709-9",
     award: "Honorable Mention",
+    awardUrl: "https://aipo.es/en/activities/awards/awards-jesus-lores/?pagina=3",
   },
   {
     title: "Virtual Reality for Enhancing Engagement with Net Zero Transitions",
