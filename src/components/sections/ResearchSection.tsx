@@ -86,6 +86,7 @@ const publications = [
     thumbnail: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=225&fit=crop",
     hasVideo: false,
     paperUrl: "https://doi.org/10.1007/s11042-020-08709-9",
+    award: "Honorable Mention",
   },
   {
     title: "Virtual Reality for Enhancing Engagement with Net Zero Transitions",
