@@ -14,7 +14,7 @@ const awards = [
 
 const profileLinks = [
   { name: "ORCID", logo: orcidLogo, url: "https://orcid.org/0000-0003-2679-2440" },
-  { name: "GitHub", logo: githubLogo, url: "https://github.com/asantos-vicomtech" },
+  { name: "GitHub", logo: githubLogo, url: "https://github.com/andresSantos9" },
   { name: "LinkedIn", logo: linkedinLogo, url: "https://www.linkedin.com/in/asantost/" },
   { name: "Google Scholar", logo: googleScholarLogo, url: "https://scholar.google.es/citations?user=wLFCis0AAAAJ&hl=es&oi=ao" },
 ];
