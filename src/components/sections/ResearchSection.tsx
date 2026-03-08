@@ -27,6 +27,7 @@ const researchProjects = [
     role: "Researcher",
     funder: "Basque Government through HAZITEK grant",
     link: "https://media-attack.tv/proyectos/flowcut/",
+    youtubeUrl: "https://www.youtube.com/watch?v=9qyv2U7qMQo",
   },
   {
     period: "Sep 2024 – Sep 2025",
