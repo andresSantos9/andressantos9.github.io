@@ -3,6 +3,7 @@ import sharedWorkspace from "@/assets/shared_workspace.png";
 import sharedExperience from "@/assets/shared_experience.png";
 import empiricalComparison from "@/assets/empirical_comparison.png";
 import vrMenus from "@/assets/vr_menus.png";
+import netZeroVr from "@/assets/net_zero_vr.gif";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -98,7 +99,7 @@ const publications = [
     authors: "A. Alshardy, S. Goodwin, A. Santos-Torres, and A. Liebman",
     venue: "Workshop on Energy Data Visualization (EnergyVis), 2023",
     year: "2023",
-    thumbnail: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=400&h=225&fit=crop",
+    thumbnail: netZeroVr,
     hasVideo: false,
     paperUrl: "https://doi.org/10.1109/EnergyVis60781.2023.00011",
   },
