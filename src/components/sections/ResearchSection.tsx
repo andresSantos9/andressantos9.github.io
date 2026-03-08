@@ -35,6 +35,7 @@ const researchProjects = [
     title: "CROSSCOLLAB: Identifying the Affordances of Cross-Reality to Enhance Collaboration",
     role: "Researcher",
     funder: "Spanish Research State Agency (AEI)",
+    link: "https://crosscolab.uc3m.es/",
   },
   {
     period: "Sep 2017 – Dec 2020",
