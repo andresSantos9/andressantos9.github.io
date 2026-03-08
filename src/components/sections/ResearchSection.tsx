@@ -1,4 +1,4 @@
-import { ExternalLink, Play, FileText, Plus } from "lucide-react";
+import { ExternalLink, Play, FileText, Plus, Trophy } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
