@@ -2,6 +2,7 @@ import { ExternalLink, Play, FileText, Plus, Trophy, Youtube } from "lucide-reac
 import sharedWorkspace from "@/assets/shared_workspace.png";
 import sharedExperience from "@/assets/shared_experience.png";
 import empiricalComparison from "@/assets/empirical_comparison.png";
+import vrMenus from "@/assets/vr_menus.png";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -106,7 +107,7 @@ const publications = [
     authors: "A. Santos, T. Zarraonandia, P. Díaz, and I. Aedo",
     venue: "ACM International Conference on Interactive Surfaces and Spaces (ISS), 2017",
     year: "2017",
-    thumbnail: "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=400&h=225&fit=crop",
+    thumbnail: vrMenus,
     hasVideo: false,
     paperUrl: "https://doi.org/10.1145/3132272.3132277",
   },
