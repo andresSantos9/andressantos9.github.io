@@ -8,8 +8,9 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const basePath = "/my-academic-hub";
-const basename = window.location.pathname.startsWith(basePath) ? basePath : undefined;
+const isGitHubPages = window.location.hostname.endsWith("github.io");
+const firstPathSegment = window.location.pathname.split("/").filter(Boolean)[0];
+const basename = isGitHubPages && firstPathSegment ? `/${firstPathSegment}` : undefined;
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
