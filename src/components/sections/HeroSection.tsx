@@ -54,6 +54,21 @@ export function HeroSection() {
               <p className="text-xl text-accent font-medium mb-4">
                 Researcher & Adjunct Lecturer
               </p>
+              {/* Profile Links */}
+              <div className="flex justify-center md:justify-start gap-3 mb-6">
+                {profileLinks.map((link) => (
+                  <a
+                    key={link.name}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-8 h-8 rounded-lg hover:bg-secondary transition-colors"
+                    title={link.name}
+                  >
+                    <img src={link.logo} alt={link.name} className="w-5 h-5 object-contain" />
+                  </a>
+                ))}
+              </div>
               <p className="text-lg text-muted-foreground mb-6">
                 Vicomtech, Digital Media & Communications • Deusto University
                 <br />
