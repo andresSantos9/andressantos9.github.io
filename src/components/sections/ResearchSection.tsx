@@ -60,7 +60,7 @@ const publications = [
     year: "2025",
     thumbnail: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=225&fit=crop",
     hasVideo: true,
-    videoUrl: "https://youtu.be/EjXQ2xbNNOc?si=_eiHoeLXykauFZkR",
+    videoUrl: "https://www.youtube.com/watch?v=EjXQ2xbNNOc",
     paperUrl: "#",
   },
   {
