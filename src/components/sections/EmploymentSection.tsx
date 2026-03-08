@@ -140,7 +140,7 @@ export function EmploymentSection() {
                   <h4 className="text-lg font-serif font-semibold text-primary">{item.degree}</h4>
                   {index === 0 && (
                     <a
-                      href="https://www.uc3m.es/doctorado/premios-extraordinarios-doctorado/premiados-21-22"
+                      href="https://www.uc3m.es/phdprogram/outstanding-thesis-awards/recipients-21-22"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:opacity-80 transition-opacity"
