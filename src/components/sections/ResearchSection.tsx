@@ -22,6 +22,12 @@ const researchInterests = [
 
 const researchProjects = [
   {
+    period: "Sep 2024 – Present",
+    title: "Flow Cut: Immersive Video Editor with Spatial Computing Interaction",
+    role: "Researcher",
+    funder: "Basque Government through HAZITEK grant",
+  },
+  {
     period: "Sep 2024 – Sep 2025",
     title: "Bazkaria: Eating Together Through Immersive Telepresence",
     role: "Researcher",
