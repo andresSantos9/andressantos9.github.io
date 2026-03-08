@@ -61,6 +61,7 @@ const publications = [
     thumbnail: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=225&fit=crop",
     hasVideo: true,
     videoUrl: "https://www.youtube.com/watch?v=EjXQ2xbNNOc",
+    embedVideo: "https://www.youtube.com/embed/EjXQ2xbNNOc?si=SsRA5xWU1GYpGQ8M",
     paperUrl: "#",
   },
   {
@@ -163,13 +164,25 @@ export function ResearchSection() {
                 >
                   <div className="relative group">
                     <AspectRatio ratio={16 / 9}>
-                      <img
-                        src={pub.thumbnail}
-                        alt={pub.title}
-                        className="object-cover w-full h-full"
-                      />
+                      {pub.embedVideo ? (
+                        <iframe
+                          src={pub.embedVideo}
+                          title={pub.title}
+                          className="w-full h-full"
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerPolicy="strict-origin-when-cross-origin"
+                          allowFullScreen
+                        />
+                      ) : (
+                        <img
+                          src={pub.thumbnail}
+                          alt={pub.title}
+                          className="object-cover w-full h-full"
+                        />
+                      )}
                     </AspectRatio>
-                    {pub.hasVideo && (
+                    {pub.hasVideo && !pub.embedVideo && (
                       <a
                         href={pub.videoUrl}
                         target="_blank"
@@ -181,7 +194,7 @@ export function ResearchSection() {
                         </div>
                       </a>
                     )}
-                    {pub.hasVideo && (
+                    {pub.hasVideo && !pub.embedVideo && (
                       <Badge className="absolute top-3 right-3 bg-accent text-accent-foreground">
                         <Play className="h-3 w-3 mr-1" />
                         Video
