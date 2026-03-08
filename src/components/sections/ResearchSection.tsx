@@ -209,6 +209,17 @@ export function ResearchSection() {
                           referrerPolicy="strict-origin-when-cross-origin"
                           allowFullScreen
                         />
+                      ) : (pub as any).teaserImages ? (
+                        <div className="flex w-full h-full">
+                          {(pub as any).teaserImages.map((img: string, i: number) => (
+                            <img
+                              key={i}
+                              src={img}
+                              alt={`${pub.title} - Figure ${i + 1}`}
+                              className="object-cover h-full flex-1"
+                            />
+                          ))}
+                        </div>
                       ) : (
                         <img
                           src={pub.thumbnail}
