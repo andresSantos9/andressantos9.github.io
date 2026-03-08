@@ -9,7 +9,7 @@ const academicLinks = [
   { name: "Personal Website", url: "https://andressantos9.github.io/", icon: "🌐" },
   { name: "GitHub", url: "https://github.com/andresSantos9", icon: "💻" },
   { name: "Google Scholar", url: "https://scholar.google.com/", icon: "📚" },
-  { name: "LinkedIn", url: "https://www.linkedin.com/in/andr%C3%A9s-santos-torres/", icon: "🔗" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/andres-santos-torres/", icon: "🔗" },
 ];
 
 export function ContactSection() {
