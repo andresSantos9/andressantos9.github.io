@@ -1,6 +1,7 @@
 import { ExternalLink, Play, FileText, Plus, Trophy, Youtube } from "lucide-react";
 import sharedWorkspace from "@/assets/shared_workspace.png";
 import sharedExperience from "@/assets/shared_experience.png";
+import empiricalComparison from "@/assets/empirical_comparison.png";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -86,7 +87,7 @@ const publications = [
     authors: "A. Santos-Torres, T. Zarraonandia, P. Díaz, T. Onorati, and I. Aedo",
     venue: "Multimedia Tools and Applications, vol. 79, 2020",
     year: "2020",
-    thumbnail: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=225&fit=crop",
+    thumbnail: empiricalComparison,
     hasVideo: false,
     paperUrl: "https://doi.org/10.1007/s11042-020-08709-9",
     award: "Honorable Mention",
