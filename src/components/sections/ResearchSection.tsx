@@ -26,6 +26,7 @@ const researchProjects = [
     title: "Flow Cut: Immersive Video Editor with Spatial Computing Interaction",
     role: "Researcher",
     funder: "Basque Government through HAZITEK grant",
+    link: "https://media-attack.tv/proyectos/flowcut/",
   },
   {
     period: "Sep 2024 – Sep 2025",
