@@ -55,7 +55,7 @@ export function ContactSection() {
                   <div>
                     <p className="font-medium text-foreground">Office</p>
                     <p className="text-muted-foreground">
-                      Vicomtech, Digital Media
+                      Vicomtech, Digital Media & Communications
                       <br />
                       Donostia – San Sebastián
                       <br />

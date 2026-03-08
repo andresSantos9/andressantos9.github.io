@@ -44,7 +44,7 @@ export function HeroSection() {
                 Researcher & Adjunct Lecturer
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                Vicomtech, Digital Media • Deusto University
+                Vicomtech, Digital Media & Communications • Deusto University
                 <br />
                 Donostia – San Sebastián, Basque Country, Spain
               </p>
