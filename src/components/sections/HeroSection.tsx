@@ -38,7 +38,7 @@ export function HeroSection() {
             {/* Bio Content */}
             <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-2">
-                Andrés Santos Torres
+                Dr. Andrés Santos Torres
               </h1>
               <p className="text-xl text-accent font-medium mb-4">
                 Researcher & Adjunct Lecturer
