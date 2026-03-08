@@ -12,7 +12,7 @@ const employment = [
     role: "Adjunct Lecturer",
     institution: "Deusto University",
     department: "Donostia – San Sebastián, Basque Country, Spain",
-    period: "Feb 2025 – Present",
+    period: "2025 - Present",
     description: "Teaching Interaction and Multimedia at the School of Engineering.",
   },
   {
