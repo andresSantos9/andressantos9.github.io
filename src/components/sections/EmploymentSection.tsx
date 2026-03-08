@@ -3,7 +3,7 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const employment = [
   {
     role: "Researcher",
-    institution: "Vicomtech, Digital Media",
+    institution: "Vicomtech, Digital Media & Communications",
     department: "Donostia – San Sebastián, Basque Country, Spain",
     period: "2024 – Present",
     description: "Research on immersive environments, commensality, and 6G network visualization.",
