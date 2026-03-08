@@ -136,7 +136,10 @@ export function EmploymentSection() {
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-sm font-medium text-accent">{item.period}</span>
                 </div>
-                <h4 className="text-lg font-serif font-semibold text-primary mb-1">{item.degree}</h4>
+                <div className="flex items-center gap-3 mb-1">
+                  <h4 className="text-lg font-serif font-semibold text-primary">{item.degree}</h4>
+                  {index === 0 && <Badge className="bg-accent text-accent-foreground">Ph.D. Outstanding Thesis Award</Badge>}
+                </div>
                 <p className="text-foreground font-medium text-sm mb-2">{item.institution}</p>
                 <p className="text-sm text-muted-foreground italic">Thesis: {item.thesis}</p>
               </div>
