@@ -1,4 +1,5 @@
 import { Briefcase, GraduationCap } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 const employment = [
   {
