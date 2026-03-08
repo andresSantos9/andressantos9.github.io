@@ -9,13 +9,13 @@ import {
 import { Users } from "lucide-react";
 
 const bachelorCourses = [
+  { code: "—", name: "Interaction and Multimedia (Theory & Lab)", semester: "Spring 2025 - Present", institution: "Deusto University" },
+  { code: "—", name: "Ubiquitous and Interactive Systems (Teacher Manager)", semester: "Spring 2024", institution: "UC3M" },
+  { code: "—", name: "Web Developing Techniques (Theory & Lab)", semester: "Fall 2023", institution: "UC3M" },
+  { code: "—", name: "User Interfaces (Theory & Lab)", semester: "Fall 2022, Fall 2023", institution: "UC3M" },
+  { code: "—", name: "Advanced Knowledge of Spreadsheets (Theory & Lab)", semester: "Spring 2021", institution: "UC3M" },
   { code: "—", name: "Programming (Lab)", semester: "Fall 2018 – Fall 2022", institution: "UC3M" },
   { code: "—", name: "Interactive Systems Design (Lab)", semester: "Spring 2018, Spring 2019", institution: "UC3M" },
-  { code: "—", name: "Advanced Knowledge of Spreadsheets (Theory & Lab)", semester: "Spring 2021", institution: "UC3M" },
-  { code: "—", name: "User Interfaces (Theory & Lab)", semester: "Fall 2022, Fall 2023", institution: "UC3M" },
-  { code: "—", name: "Web Developing Techniques (Theory & Lab)", semester: "Fall 2023", institution: "UC3M" },
-  { code: "—", name: "Ubiquitous and Interactive Systems (Teacher Manager)", semester: "Spring 2024", institution: "UC3M" },
-  { code: "—", name: "Interaction and Multimedia (Theory & Lab)", semester: "Spring 2025 - Present", institution: "Deusto University" },
 ];
 
 const masterCourses = [
