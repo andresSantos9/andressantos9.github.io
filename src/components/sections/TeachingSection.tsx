@@ -9,7 +9,7 @@ import {
 import { Users } from "lucide-react";
 
 const bachelorCourses = [
-  { code: "—", name: "Interaction and Multimedia (Theory & Lab)", semester: "Present", institution: "Deusto University" },
+  { code: "—", name: "Interaction and Multimedia (Theory & Lab)", semester: "Spring 2025 - Present", institution: "Deusto University" },
   { code: "—", name: "Ubiquitous and Interactive Systems (Teacher Manager)", semester: "Spring 2024", institution: "UC3M" },
   { code: "—", name: "Web Developing Techniques (Theory & Lab)", semester: "Fall 2023", institution: "UC3M" },
   { code: "—", name: "User Interfaces (Theory & Lab)", semester: "Fall 2022, Fall 2023", institution: "UC3M" },
