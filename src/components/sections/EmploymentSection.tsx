@@ -1,4 +1,4 @@
-import { Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase, GraduationCap, Trophy } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const employment = [
@@ -138,7 +138,7 @@ export function EmploymentSection() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h4 className="text-lg font-serif font-semibold text-primary">{item.degree}</h4>
-                  {index === 0 && <Badge className="bg-accent text-accent-foreground">Ph.D. Outstanding Thesis Award</Badge>}
+                  {index === 0 && <Badge className="bg-accent text-accent-foreground"><Trophy className="h-4 w-4 mr-1" />Ph.D. Outstanding Thesis Award</Badge>}
                 </div>
                 <p className="text-foreground font-medium text-sm mb-2">{item.institution}</p>
                 <p className="text-sm text-muted-foreground italic">Thesis: {item.thesis}</p>
