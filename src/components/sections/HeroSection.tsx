@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Award, GraduationCap } from "lucide-react";
+import profilePhoto from "@/assets/asantos.jpg";
 
 const awards = [
   { year: "2025", title: "Special Recognition for Outstanding Reviews", org: "CHI 2025 – Conference on Human Factors in Computing Systems" },
