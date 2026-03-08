@@ -152,17 +152,30 @@ export function ResearchSection() {
                       <span className="text-sm font-medium text-accent">{project.period}</span>
                       <Badge variant="outline" className="text-xs">{project.role}</Badge>
                     </div>
-                    {project.link && (
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-accent hover:bg-accent/90 transition-colors"
-                        title="View project details"
-                      >
-                        <Plus className="h-4 w-4 text-accent-foreground" />
-                      </a>
-                    )}
+                    <div className="flex items-center gap-2">
+                      {project.youtubeUrl && (
+                        <a
+                          href={project.youtubeUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-600 hover:bg-red-700 transition-colors"
+                          title="Watch video"
+                        >
+                          <Youtube className="h-4 w-4 text-white" />
+                        </a>
+                      )}
+                      {project.link && (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-accent hover:bg-accent/90 transition-colors"
+                          title="View project details"
+                        >
+                          <Plus className="h-4 w-4 text-accent-foreground" />
+                        </a>
+                      )}
+                    </div>
                   </div>
                   <h4 className="font-serif font-semibold text-primary mb-1">{project.title}</h4>
                   <p className="text-sm text-muted-foreground">Funded by: {project.funder}</p>
