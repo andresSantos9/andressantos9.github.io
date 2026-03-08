@@ -22,7 +22,7 @@ const researchInterests = [
 
 const researchProjects = [
   {
-    period: "Sep 2024 – Present",
+    period: "Sep 2024 – Dec 2026",
     title: "Flow Cut: Immersive Video Editor with Spatial Computing Interaction",
     role: "Researcher",
     funder: "Basque Government through HAZITEK grant",
