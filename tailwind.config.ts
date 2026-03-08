@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ["'Playfair Display'", "Georgia", "'Times New Roman'", "serif"],
+        sans: ["'Source Sans 3'", "system-ui", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,11 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        academic: {
+          navy: "hsl(var(--academic-navy))",
+          burgundy: "hsl(var(--academic-burgundy))",
+          gold: "hsl(var(--academic-gold))",
         },
       },
       borderRadius: {
