@@ -23,7 +23,7 @@ const researchInterests = [
 const researchProjects = [
   {
     period: "May 2026 – Dec 2027",
-    title: "Amplify",
+    title: "AMPLIFY: Phygital Solutions for Cultural and Creative Industries",
     role: "Researcher",
     funder: "European Union",
     link: "https://amplifyproject.eu/",
