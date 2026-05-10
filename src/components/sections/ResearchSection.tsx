@@ -22,6 +22,14 @@ const researchInterests = [
 
 const researchProjects = [
   {
+    period: "May 2026 – Dec 2027",
+    title: "Amplify",
+    role: "Researcher",
+    funder: "European Union",
+    link: "https://amplifyproject.eu/",
+    youtubeUrl: "https://www.youtube.com/watch?v=gkettpgJ7OU",
+  },
+  {
     period: "Sep 2024 – Dec 2026",
     title: "Flow Cut: Immersive Video Editor with Spatial Computing Interaction",
     role: "Researcher",
