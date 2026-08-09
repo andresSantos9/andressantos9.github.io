@@ -70,6 +70,15 @@ const researchProjects = [
 
 const publications = [
   {
+    title: "User perspectives and scales for collaborative classification tasks in immersive environments",
+    authors: "A. Santos-Torres, Y. Yang, T. Zarraonandia, and P. Díaz",
+    venue: "Virtual Reality, 2026",
+    year: "2026",
+    thumbnail: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=400&h=225&fit=crop",
+    hasVideo: false,
+    paperUrl: "https://link.springer.com/article/10.1007/s10055-026-01454-8",
+  },
+  {
     title: "6GTWIN: An Immersive Digital Twin Platform for 6G Network Monitoring and Experimentation",
     authors: "A. Santos-Torres, S. Cabrero Barros, and M. Zorrilla",
     venue: "Workshop on Human Factors in Immersive Analytics (HFIA), IEEE VIS 2025",
