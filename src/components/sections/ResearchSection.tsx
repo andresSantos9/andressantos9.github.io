@@ -27,7 +27,7 @@ const researchProjects = [
     role: "Researcher",
     funder: "European Union",
     link: "https://amplifyproject.eu/",
-    youtubeUrl: "https://www.youtube.com/watch?v=eJRNSDg6rl4",
+    youtubeUrl: "https://www.youtube.com/watch?v=gkettpgJ7OU",
   },
   {
     period: "Sep 2024 – Dec 2026",
