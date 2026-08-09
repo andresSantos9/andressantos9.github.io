@@ -74,9 +74,8 @@ const publications = [
     authors: "A. Santos-Torres, Y. Yang, T. Zarraonandia, and P. Díaz",
     venue: "Virtual Reality, 2026",
     year: "2026",
-    hasVideo: true,
-    videoUrl: "https://www.youtube.com/watch?v=eJRNSDg6rl4",
     embedVideo: "https://www.youtube.com/embed/eJRNSDg6rl4",
+    projectUrl: "https://andressantos9.github.io/User-perspectives-and-scales/",
     paperUrl: "https://link.springer.com/article/10.1007/s10055-026-01454-8",
   },
   {
@@ -315,6 +314,14 @@ export function ResearchSection() {
                           <a href={pub.videoUrl} target="_blank" rel="noopener noreferrer">
                             <ExternalLink className="h-4 w-4 mr-1" />
                             Video
+                          </a>
+                        </Button>
+                      )}
+                      {(pub as any).projectUrl && (
+                        <Button variant="outline" size="sm" asChild className="flex-1">
+                          <a href={(pub as any).projectUrl} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="h-4 w-4 mr-1" />
+                            Project
                           </a>
                         </Button>
                       )}
