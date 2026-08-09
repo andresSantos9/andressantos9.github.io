@@ -74,8 +74,9 @@ const publications = [
     authors: "A. Santos-Torres, Y. Yang, T. Zarraonandia, and P. Díaz",
     venue: "Virtual Reality, 2026",
     year: "2026",
-    thumbnail: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=400&h=225&fit=crop",
-    hasVideo: false,
+    hasVideo: true,
+    videoUrl: "https://www.youtube.com/watch?v=eJRNSDg6rl4",
+    embedVideo: "https://www.youtube.com/embed/eJRNSDg6rl4",
     paperUrl: "https://link.springer.com/article/10.1007/s10055-026-01454-8",
   },
   {
