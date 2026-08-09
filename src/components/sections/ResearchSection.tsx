@@ -317,6 +317,14 @@ export function ResearchSection() {
                           </a>
                         </Button>
                       )}
+                      {(pub as any).projectUrl && (
+                        <Button variant="outline" size="sm" asChild className="flex-1">
+                          <a href={(pub as any).projectUrl} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="h-4 w-4 mr-1" />
+                            Project
+                          </a>
+                        </Button>
+                      )}
                     </div>
                   </CardContent>
                 </Card>
